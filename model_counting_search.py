@@ -16,7 +16,7 @@ def get_neg(in_str):
 
 ################################################################################
 # function to generate a string, which can be loaded into the crossbar with greater ease
-# format: {T, F, A0, !A0, B0, !B0, A1, !A1, B1, !B1, ..., An, !An, Bn, !Bn}
+# format: {F, T, A0, !A0, B0, !B0, A1, !A1, B1, !B1, ..., An, !An, Bn, !Bn}
 def weave_str(a, b, neg_a, neg_b):
     rev_a = a[::-1]
     rev_neg_a = neg_a[::-1]
